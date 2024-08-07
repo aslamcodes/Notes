@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"0763bb9640deb461","type":"text","text":"# Token Authentication","x":-600,"y":-424,"width":360,"height":74},
+		{"id":"d89161fccde47672","type":"text","text":"Is Token Authentication a Umbrella term, that includes JWT?","x":-300,"y":-163,"width":260,"height":100,"color":"3"},
+		{"id":"033ce6aaf5c850f3","x":-182,"y":40,"width":285,"height":216,"type":"text","text":"- All JWTs are Token, all Tokens aren't JWTs.\n- Tokens can be a physical object too, a USB, Microsoft's Magic ring, Phone's 2-factor auth\n"},
+		{"id":"aa2508d6df236ce7","x":-413,"y":-720,"width":373,"height":141,"type":"text","text":"What's a Token\n\na thing serving as a visible or [tangible](https://www.google.com/search?client=safari&sca_esv=9c4d707c45539800&sca_upv=1&rls=en&sxsrf=ADLYWIL6iLhRgqm4tju0wkEOOQa-Qcqb1w:1723032087882&q=tangible&si=ACC90nwZKElgOcNXBU934ENhMNgqtj90ch-sCls8zqooByTTM8cpyon3pIOvBUcTMGOGWddMoLfb-DW6PSN87d9aYUNR-yBLqtjjMGf1juA5Lr_4BuVQeI4%3D&expnd=1&sa=X&ved=2ahUKEwizrqPc6uKHAxWWyDgGHR6OJgMQyecJegQIHxAZ&biw=904&bih=489&dpr=2) representation of a fact, quality, feeling, etc."},
+		{"id":"9c757a4e9e33b6e8","x":400,"y":340,"width":250,"height":144,"type":"text","text":"Types of Auth Tokens\n1. Contacted\n2. Contactless\n3. Disconnected"},
+		{"id":"b7ceb22ce281600b","x":525,"y":148,"width":250,"height":60,"type":"text","text":"Auth Tokens are Security Tokens"}
+	],
+	"edges":[
+		{"id":"a6815490b5a18f32","fromNode":"0763bb9640deb461","fromSide":"bottom","toNode":"d89161fccde47672","toSide":"top"},
+		{"id":"ac3ec40b3a27c50e","fromNode":"b7ceb22ce281600b","fromSide":"bottom","toNode":"9c757a4e9e33b6e8","toSide":"top"},
+		{"id":"c5e003f733c2f621","fromNode":"d89161fccde47672","fromSide":"bottom","toNode":"033ce6aaf5c850f3","toSide":"top"},
+		{"id":"f8b7621d25fd6401","fromNode":"aa2508d6df236ce7","fromSide":"bottom","toNode":"0763bb9640deb461","toSide":"top"},
+		{"id":"839397ad5c2c8998","fromNode":"9c757a4e9e33b6e8","fromSide":"left","toNode":"033ce6aaf5c850f3","toSide":"right","toEnd":"none"}
+	]
+}
