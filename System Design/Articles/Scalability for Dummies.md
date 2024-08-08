@@ -1,3 +1,9 @@
+---
+sr-due: 2024-08-11
+sr-interval: 3
+sr-ease: 250
+---
+
 #review
 # Clones (Nodes)
 - The adjective scalable web service are hidden behind [[Load Balancer]]
@@ -28,6 +34,7 @@
 Even after doing the path 2, your app will be slowing down, Do Caching
 
 # Caching
+#todo
 # Asynchronism
 > [!NOTE] By Asynchron-ism, the author means process that are asynchronous by nature such as SSR and Job Queuing
 - The author compares asynchronism to a bakery

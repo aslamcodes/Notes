@@ -2,6 +2,7 @@
 
 > The internet is a network of networks.
 
+#review
 # How?
 - Internet is interconnection between routers, responsible for sharing information.
 - There are standardised protocols that defines how it should be shared

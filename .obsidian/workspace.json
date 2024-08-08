@@ -4,83 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f50af521a0ed5135",
+        "id": "d70b792e2c2603e4",
         "type": "tabs",
         "children": [
           {
-            "id": "afe70ef60cf5445d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "API/Rate Limiting.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cda7b40fbd826a00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "API/Bot Management.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "87ee5b3393df1f4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "API/Bot Management.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eef4c135c543d3cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "API/Rate Limiting.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e13fe141ecfad50d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend Concepts/Internet.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d5d7d64483a0ed6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend Concepts/SSL or TLS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ae3e0c846193583c",
+            "id": "91dc147bd8012d16",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -90,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "7f853f6a4a3989f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Backend Concepts/HTTP and HTTPs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Backend Concepts/HTTP and HTTPs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,8 +125,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Backend Concepts/HTTP and HTTPs.md"
               }
+            }
+          },
+          {
+            "id": "dd36d7b6a742c60b",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
             }
           }
         ],
@@ -219,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -229,38 +151,39 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "7f853f6a4a3989f7",
+  "active": "52fe510d7506bc5b",
   "lastOpenFiles": [
+    "Screenshot 2024-08-08 at 12.07.31 PM.png",
+    "API/Rate Limiting.md",
+    "API/Bot Management.md",
+    "Backend Concepts/Internet.md",
+    "Backend Concepts/SSL or TLS.md",
+    "Backend Concepts/HTTP and HTTPs.md",
+    "System Design/Articles/Scalability for Dummies.md",
+    "AWS/Services/EC2/EC2 - Elastic Compute Cloud.md",
+    "AWS/Services/EC2/Types of EC2 Instances.md",
+    "Networking/The OSI Model.md",
+    "Backend Concepts/Token Based Authentication.md",
+    "README.md",
     "System Design/Scalability.md",
     "System Design/Getting Started.md",
     "System Design/Components/Load Balancer.md",
     "System Design/Components/CS75 (Summer 2012) Lecture 9 Scalability Harvard Web Development David Malan.md",
     "System Design/Articles/System Design Primer.md",
     "System Design/Articles/Untitled.md",
-    "System Design/Articles/Scalability for Dummies.md",
     "Resources/rate-limiting.png",
     "Repo Hunting/Hunt 1 - Sugan's mini project.md",
-    "API/Rate Limiting.md",
-    "API/Bot Management.md",
     "AWS/Certifications.md",
-    "AWS/Services/EC2/EC2 - Elastic Compute Cloud.md",
     "Containerisation/Docker/From Training/Volume.md",
     "Containerisation/Docker/Exposing vs Publishing a Port 1.md",
     "Containerisation/Docker/Exposing vs Publishing a Port.md",
     "Containerisation/Docker/From Training/Remove Image and Containers.md",
     "Containerisation/Docker/From Training/Dockerise a Frontend.md",
     "Containerisation/Docker/From Training/Containerize.md",
-    "Javascript/Demystifying this keyword in JS.md",
-    "Javascript Script Mode, and Why its a thing?.md",
-    "Master-Slave Replication.md",
-    "Backend Concepts/Backend.md",
-    "Backend Concepts/Cookie Based Auth.md",
-    "Backend Concepts/HTTP and HTTPs.md",
-    "Backend Concepts/Internet.md",
-    "Backend Concepts/SSL or TLS.md",
     "Backend Concepts/Token Auth.canvas",
     "SSL",
     "SSL ",
