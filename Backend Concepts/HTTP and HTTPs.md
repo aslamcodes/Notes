@@ -68,7 +68,8 @@ Server: Apache 0.84
 	- Clients send multiple request without waiting for response from server
 	- The server sends the responses in the sequence that requests was made
 	- Clients use the content length header to identify parts of the response that corresponds to the request
-- and more!
+	- In case of dynamic content, the server sents
+
 ##### **The Problems**
 - Even if the connection stays open, HTTP/1.1 can handle one request at a time.
 - HTTP/1.1 tried to solve this with pipelining, but still slow or heavy request blocks the requests that are behind. Head of Line Issue
