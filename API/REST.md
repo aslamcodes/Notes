@@ -1,0 +1,1 @@
+REST is a architectural style, that has constraints, what ever satisfies those constraints become an instance of REST

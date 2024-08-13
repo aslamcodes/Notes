@@ -1,0 +1,4 @@
+- Svelte uses a compiler whereas react uses a runtime vDOM
+- The framework code is injected into the browser in case of react
+- The svelte compiler compiles the code into vanilla js, html, css, no overhead code runs on the browser :)
+-  

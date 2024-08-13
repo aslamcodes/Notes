@@ -15,7 +15,9 @@ url: "https://roadmap.sh/backend?s=654f7d5b68ca602613156a8b"
 		1. [[HTTP and HTTPs]]
 		2. [[SSL or TLS]]
 		3. [[DNS]]
-		4. 
 2. Authentication
 	1. [[Cookie Based Auth]]
 	2. [[Token Based Authentication]]
+	3. [[OAuth]]
+	4. [[Token Auth.canvas|Token Auth]]
+3. 
