@@ -20,4 +20,9 @@ url: "https://roadmap.sh/backend?s=654f7d5b68ca602613156a8b"
 	2. [[Token Based Authentication]]
 	3. [[OAuth]]
 	4. [[Token Auth.canvas|Token Auth]]
-3. 
+3. Security
+	1. [[MD5]]
+4. [[DB Scaling | Scalling databases]]
+	1. [[Database indexing]]
+	2. [[Database Sharding]]
+	3. [[Database Replication]]
