@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Random.md",
+                "file": "Book Notes/DDIA - Designing Data Intensive Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Random.md",
+                "file": "Book Notes/DDIA - Designing Data Intensive Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Random.md",
+                "file": "Book Notes/DDIA - Designing Data Intensive Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Random.md"
+                "file": "Book Notes/DDIA - Designing Data Intensive Applications.md"
               }
             }
           },
@@ -171,8 +171,8 @@
   },
   "active": "97b685bb6e243c95",
   "lastOpenFiles": [
-    "Tools/Git/Renaming a branch.md",
     "Random.md",
+    "Tools/Git/Renaming a branch.md",
     "Backend Concepts/Auth/OAuth.md",
     "Backend Concepts/Internet/HTTP and HTTPs.md",
     "Backend Concepts/Internet/DNS.md",
