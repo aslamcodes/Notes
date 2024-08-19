@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "5207fcf85395f8ef",
+        "id": "cea38ae0e90300d4",
         "type": "tabs",
         "children": [
           {
-            "id": "346e84d1b5ffe84e",
+            "id": "5118f7247baf3e4f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Git/Renaming a branch.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "97b685bb6e243c95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Book Notes/DDIA - Designing Data Intensive Applications.md",
+                "file": "Random.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "31a421c8ed88df9f",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Book Notes/DDIA - Designing Data Intensive Applications.md",
+                "file": "Random.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Book Notes/DDIA - Designing Data Intensive Applications.md",
+                "file": "Random.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Book Notes/DDIA - Designing Data Intensive Applications.md"
+                "file": "Random.md"
               }
             }
           },
@@ -169,10 +157,19 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "97b685bb6e243c95",
+  "active": "5118f7247baf3e4f",
   "lastOpenFiles": [
-    "Random.md",
+    "Backend Concepts/Security/MD5.md",
+    "API/REST.md",
+    "Book Notes/ProGit/Chapter 1 - 4.md",
+    "Tools/Git/Git's way of doing things.md",
+    "Tools/Git/Good 'ol merging.md",
+    "Tools/Git/Screenshot 2024-08-15 at 4.48.30 PM.png",
     "Tools/Git/Renaming a branch.md",
+    "Tools/Git/Recording changed with Git Diagram 2024-08-11 17.53.57.excalidraw.md",
+    "Tools/Git/Recording changed with Git Diagram.md",
+    "Book Notes/DDIA - Designing Data Intensive Applications.md",
+    "Random.md",
     "Backend Concepts/Auth/OAuth.md",
     "Backend Concepts/Internet/HTTP and HTTPs.md",
     "Backend Concepts/Internet/DNS.md",
@@ -182,10 +179,8 @@
     "AWS/User Types in AWS.md",
     "AWS/Glossary.md",
     "AWS/Services/EC2/EC2 Pricing.md",
-    "Tools/Git/Good 'ol merging.md",
     "Tools/Git/Screenshot 2024-08-15 at 4.57.49 PM.png",
     "Tools/Git/Pasted image 20240815165751.png",
-    "Tools/Git/Screenshot 2024-08-15 at 4.48.30 PM.png",
     "Tools/Git/Pasted image 20240815164831.png",
     "Tools/Git/Pasted image 20240815164802.png",
     "Tools/Git/Pasted image 20240815164002.png",
@@ -193,16 +188,11 @@
     "Resources/Screenshot 2024-08-13 at 5.55.06 PM.png",
     "Untitled",
     "Resources/Screenshot 2024-08-15 at 4.29.31 PM.png",
-    "Tools/Git/Git's way of doing things.md",
-    "Tools/Git/Amending.md",
-    "Backend Concepts/Security/MD5.md",
     "Backend Concepts/Index.md",
-    "Book Notes/DDIA - Designing Data Intensive Applications.md",
     "Book Notes/How to Read a Book.md",
     "Home.md",
     "Resources/Screenshot 2024-08-09 at 5.31.26 PM.png",
     "Backend Concepts/Auth/Token Auth.canvas",
-    "API/REST.md",
     "Backend Concepts/Internet/SSL or TLS.md",
     "Backend Concepts/Internet/Internet.md",
     "Backend Concepts/Internet",
@@ -211,11 +201,8 @@
     "Backend Concepts/Auth",
     "Javascript/Svelte/Svelte vs React.md",
     "Javascript/Svelte",
-    "Writing/Beginner Introduction for Go Modules by a Beginner.md",
     "Writing",
-    "Tools/Git/Recording changed with Git Diagram.md",
-    "Tools/Git/Recording changed with Git Diagram 2024-08-11 17.53.57.excalidraw.md",
-    "Tools/Git",
+    "Book Notes/ProGit",
     "Tools",
     "Go Lang"
   ]

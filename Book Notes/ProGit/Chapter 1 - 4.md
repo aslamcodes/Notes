@@ -1,3 +1,4 @@
+# Git's way of doing things
 > Git doesn't store the delta of each file from its base version, which I thought it was, but instead it saves a snapshot of your whole project each commit
 
 # What is a Snapshot in Git terms? 
@@ -19,3 +20,73 @@ image: "data:image/svg+xml;base64,PHN2ZyBjbGFzcz0ibGRzLW1pY3Jvc29mdCIgd2lkdGg9Ij
 description: "Fetching https://dev.to/iredox10/capturing-code-chronicles-a-guide-to-git-snapshotting-557c"
 url: "https://dev.to/iredox10/capturing-code-chronicles-a-guide-to-git-snapshotting-557c"
 ```
+
+# Amending
+```bash
+git commit --amend
+```
+
+> [!DANGER] Dont do this for a commit that's pushed elsewhere!
+
+```embed
+title: "amending a commit after it has been pushed"
+image: "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded"
+description: "In my most recent commit to my repository that has already been pushed, I noticed I misspelled a single word in a file and now would like to change it. However, I do not want to create a whole new…"
+url: "https://stackoverflow.com/questions/70051009/amending-a-commit-after-it-has-been-pushed"
+```
+
+
+SO Better not do this, at remotes!
+
+# Rebasing - the other way!
+- A branch can be merged into another with two ways `merging` and `rebasing`
+# Merging
+## Fast Forwarding :LiFastForward:
+
+- You were working on `iss53`, but you have to do a `hotfix`, so you create a branch from `master` named `hotfix`
+![[Screenshot 2024-08-15 at 4.29.31 PM.png]]
+- after finishing your work, you merge the `hotfix` into `master` for production with
+```console
+$ git checkout master
+$ git merge hotfix
+```
+- and the response would be
+```console
+Updating f42c576..3a0874c
+Fast-forward
+ index.html | 2 ++
+ 1 file changed, 2 insertions(+)
+```
+- Git just move the `master` pointer to the `hotfix`'s pointer, since its directly about the `master`'s pointer since there is no divergent work
+> Because the commit `C4` pointed to by the branch `hotfix` you merged in was directly ahead of the commit `C2` you’re on, Git simply moves the pointer forward. To phrase that another **way, when you try to merge one commit with a commit that can be reached by following the first commit’s history, Git simplifies things by moving the pointer forward because there is no divergent work to merge together** — this is called a “fast-forward.”
+![[Pasted image 20240815164002.png]]
+##  Things heating up! Merge `iss53` into `master`
+![[Screenshot 2024-08-15 at 4.48.30 PM.png]]
+- in this case, we have divergent workflows
+- Git does a 3 way merge with *two branch tips snapshots* and a *common ancestor snapshot* and creates a commit thats called `merge commit`
+- `merge commit` has two parents, a special one
+![[Screenshot 2024-08-15 at 4.57.49 PM.png]]
+***Your'e lucky, you have no conflicts between `master` and `iss53`***
+
+## Lets say, *CONFLICTS!*
+
+# Renaming a Branch
+
+```shell
+git branch --move old_name new_name
+git push origin --set-upstream new_name
+git push origin --delete old_name
+```
+Now you have a few more tasks in front of you to complete the transition:
+
+- Any projects that depend on this one will need to update their code and/or configuration.
+    
+- Update any test-runner configuration files.
+    
+- Adjust build and release scripts.
+    
+- Redirect settings on your repo host for things like the repo’s default branch, merge rules, and other things that match branch names.
+    
+- Update references to the old branch in documentation.
+    
+- Close or merge any pull requests that target the old branch

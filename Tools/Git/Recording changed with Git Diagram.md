@@ -1,1 +1,0 @@
-![[Recording changed with Git Diagram 2024-08-11 17.53.57.excalidraw]]
