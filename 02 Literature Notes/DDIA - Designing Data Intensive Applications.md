@@ -40,5 +40,29 @@ The author talks about bugs that are related to underlying software implementaio
     - Do extensive exception handling
     - Test all levels unit tests, integration tests, and manual testing
     - **refer the book duh**
+## Scalability
+- Handling increase in load
+- Its not a one way term, saying "X doesnt scale" or "y doesnt scale", its "if the system grows in a particular way, what is our options for coping up?"
+### Load
+The term load's definition depends on the system, 
+- Request Per Second (RPS) for a web server
+- Active users for a chat room application
+- Ration of read and writes for a database
+or anything else, these are **load parameters**
+#### Example, twitter's load param
+Twitters main operations
+- Post a tweet (4.6k RPS)
+- home timeline (300K RPS)
+Approaches
+1. SQL Query with `JOIN` Operation of the `folow` and `users` table with `foloweeId`  
+2. Inbox Timeline Cache for each user, that gets the tweets of whom they follow
 
+1 approach made the system struggle 
+so the second approach is chosen
 
+> Here the **load param** is **Distribution of followers for each user*** for *approach 2*
+### Performance
+The author says performance of a system can be investigated in according to the rise of its [[Load Parameter]] while 
+1. Keeping the resources still
+2. and Increasing the resources
+## Maintainability

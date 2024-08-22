@@ -1,0 +1,1 @@
+Gets NuGet dependencies and puts in a local cache for the application to use, and also ensures dependencies are compatible

@@ -1,0 +1,1 @@
+Performance of a system is a measure in terms of [[Performance Numbers]] with relation to its changes in [[Load Parameter|load]] 

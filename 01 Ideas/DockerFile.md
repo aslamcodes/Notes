@@ -1,0 +1,1 @@
+List of directives and instruction that tells how to create a [[Docker Image]]

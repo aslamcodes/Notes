@@ -1,0 +1,3 @@
+- Contains instructions that tells how to create a [[Docker Container]]
+- A Docker image will have all the binaries, code, config files that are needed to spin up the [[Docker Container]]
+- Container images are composed of [[layers in images |layers]]. Each layer represented a set of file system changes that add, remove, or modify files

@@ -4,22 +4,107 @@
     "type": "split",
     "children": [
       {
-        "id": "cea38ae0e90300d4",
+        "id": "db1a7dd866b01b7b",
         "type": "tabs",
         "children": [
           {
-            "id": "5118f7247baf3e4f",
+            "id": "68fc3c93ceeed8bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Random.md",
+                "file": "01 Ideas/Scalability.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fb5a85752286de59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Ideas/Docker Base Image.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a7b0d744ee0e9bc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Ideas/Docker Image.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4aa047319a9d6888",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Ideas/DockerFile.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "25019d38fe203cab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "layers in images.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "adc4c7d12fd7336f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Ideas/DockerFile.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f741f15f773bf860",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "12 Areas/Containerisation/Docker/Docker commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d446511a47f2e480",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "12 Areas/OSSU/SPD/HtDF - How to Design Function Recipe.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -86,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Random.md",
+                "file": "12 Areas/OSSU/SPD/HtDF - How to Design Function Recipe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Random.md",
+                "file": "12 Areas/OSSU/SPD/HtDF - How to Design Function Recipe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Random.md"
+                "file": "12 Areas/OSSU/SPD/HtDF - How to Design Function Recipe.md"
               }
             }
           },
@@ -138,13 +223,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300.8
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,53 +240,54 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "5118f7247baf3e4f",
+  "active": "eba317c6d15bf795",
   "lastOpenFiles": [
-    "Backend Concepts/Security/MD5.md",
-    "API/REST.md",
-    "Book Notes/ProGit/Chapter 1 - 4.md",
-    "Tools/Git/Git's way of doing things.md",
-    "Tools/Git/Good 'ol merging.md",
+    "12 Areas/OSSU/SPD/Systematic Programming Desing.md",
+    "12 Areas/OSSU/SPD/HtDF - How to Design Function Recipe.md",
+    "12 Areas/Containerisation/Docker/Docker commands.md",
+    "01 Ideas/Docker Base Image.md",
+    "01 Ideas/Dotnet Restore.md",
+    "01 Ideas/Dotnet Publish.md",
+    "01 Ideas/Docker Image.md",
+    "12 Areas/Containerisation/Docker/Creating a DockerFile.md",
+    "01 Ideas/DockerFile.md",
+    "layers in images.md",
+    "Pasted image 20240821213550.png",
+    "Pasted image 20240821213506.png",
+    "Docker Container.md",
+    "12 Areas/Tools/Power BI/POWER BI Scratch.md",
+    "12 Areas/Tools/Power BI/use cases.md",
+    "01 Ideas/Percentage.md",
+    "12 Areas/Tools/Power BI",
+    "01 Ideas/Latency & Response Time.md",
+    "12 Areas/OSSU/SPD/Screenshot 2024-08-21 at 8.01.20 AM.png",
+    "12 Areas/OSSU/SPD/Screenshot 2024-08-21 at 8.01.05 AM.png",
+    "12 Areas/OSSU/SPD/Screenshot 2024-08-21 at 8.00.38 AM.png",
+    "12 Areas/OSSU/SPD/Screenshot 2024-08-21 at 7.57.26 AM.png",
+    "01 Ideas/REPL.md",
+    "12 Areas/OSSU/SPD",
+    "12 Areas/OSSU",
+    "01 Ideas/Performance of a System.md",
+    "02 Literature Notes/DDIA - Designing Data Intensive Applications.md",
+    "01 Ideas/Load Parameter.md",
+    "01 Ideas/Scalability.md",
+    "01 Ideas/A Quality Product.md",
+    "0 Inbox/Screenshot 2024-08-19 at 3.10.34 PM.png",
+    "01 Ideas/Load of a system.md",
+    "0 Inbox/Screenshot 2024-08-19 at 3.25.06 PM.png",
+    "11 Projects/Redis",
+    "14 Archive/Book Notes/ProGit/Chapter 1 - 4.md",
+    "13 Resources/Networking/Virtual Net (VNET).md",
+    "02 Literature Notes",
+    "01 Reference Notes",
+    "13 Resources/Networking/The OSI Model.md",
+    "13 Resources/Networking/Subnet.md",
+    "14 Archive",
+    "11 Projects",
+    "13 Resources",
+    "01 Ideas",
     "Tools/Git/Screenshot 2024-08-15 at 4.48.30 PM.png",
-    "Tools/Git/Renaming a branch.md",
-    "Tools/Git/Recording changed with Git Diagram 2024-08-11 17.53.57.excalidraw.md",
-    "Tools/Git/Recording changed with Git Diagram.md",
-    "Book Notes/DDIA - Designing Data Intensive Applications.md",
-    "Random.md",
-    "Backend Concepts/Auth/OAuth.md",
-    "Backend Concepts/Internet/HTTP and HTTPs.md",
-    "Backend Concepts/Internet/DNS.md",
-    "Backend Concepts/Database Scalling/DB Scaling.md",
-    "Backend Concepts/Auth/Token Based Authentication.md",
-    "Backend Concepts/Auth/Cookie Based Auth.md",
-    "AWS/User Types in AWS.md",
-    "AWS/Glossary.md",
-    "AWS/Services/EC2/EC2 Pricing.md",
     "Tools/Git/Screenshot 2024-08-15 at 4.57.49 PM.png",
-    "Tools/Git/Pasted image 20240815165751.png",
-    "Tools/Git/Pasted image 20240815164831.png",
-    "Tools/Git/Pasted image 20240815164802.png",
-    "Tools/Git/Pasted image 20240815164002.png",
-    "Resources/Screenshot 2024-08-09 at 5.32.32 PM.png",
-    "Resources/Screenshot 2024-08-13 at 5.55.06 PM.png",
-    "Untitled",
-    "Resources/Screenshot 2024-08-15 at 4.29.31 PM.png",
-    "Backend Concepts/Index.md",
-    "Book Notes/How to Read a Book.md",
-    "Home.md",
-    "Resources/Screenshot 2024-08-09 at 5.31.26 PM.png",
-    "Backend Concepts/Auth/Token Auth.canvas",
-    "Backend Concepts/Internet/SSL or TLS.md",
-    "Backend Concepts/Internet/Internet.md",
-    "Backend Concepts/Internet",
-    "Backend Concepts/Authentication",
-    "Backend Concepts/Database Scalling",
-    "Backend Concepts/Auth",
-    "Javascript/Svelte/Svelte vs React.md",
-    "Javascript/Svelte",
-    "Writing",
-    "Book Notes/ProGit",
-    "Tools",
-    "Go Lang"
+    "12 Areas/Backend Concepts/Auth/Token Auth.canvas"
   ]
 }
